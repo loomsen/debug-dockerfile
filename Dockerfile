@@ -1,6 +1,6 @@
 FROM ksandermann/cloud-toolbox
 
-RUN apt get install \
+RUN apt-get install -yq \
     mysql-client \
     postgresql-client
 
